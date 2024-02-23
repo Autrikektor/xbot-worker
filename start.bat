@@ -5,7 +5,7 @@ ECHO Starting Bot
 
 timeout /t 5
 
-node xbot-worker.js --env-file="settings.example"
+node --env-file="settings.example" xbot-worker.js
 
 timeout /t 5
 
